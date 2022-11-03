@@ -1,0 +1,94 @@
+.content-a {
+  display: flex;
+  flex-direction: row;
+}
+
+.a-text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4%;
+  margin-left: 4%;
+  width: 60%;
+}
+
+.a-text p {
+  font-size: 20px;
+}
+.a-text h1 {
+  font-size: 35px;
+}
+.a-image img {
+  width: 69%;
+  height: 70%;
+  margin-left: 26%;
+  margin-top: 7%;
+}
+
+.one,
+.two,
+.five,
+.six {
+  background-color: #fd9184;
+  position: relative;
+}
+
+.one,
+.three,
+.five {
+  border-bottom: 1.5px solid #0000001f;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 4%;
+  padding-top: 3%;
+  height: 33%;
+  padding-bottom: 3%;
+}
+.card h2 {
+  font-size: 35px;
+  border-bottom: 1.5px solid #ffb80078;
+}
+.card p {
+  width: 50%;
+  font-size: 25px;
+}
+
+.scallop-down {
+  height: 2rem;
+  width: 100%;
+  background: -webkit-gradient(
+    radial,
+    50% 0,
+    10,
+    50% 0,
+    40,
+    from(#fd9184),
+    color-stop(0.49, #fd9184),
+    color-stop(0.51, #fff),
+    to(white)
+  );
+  -webkit-background-size: 31px 100%;
+}
+
+/*----------------*/
+/*  SCALLOP up    */
+/*----------------*/
+.scallop-up {
+  height: 2rem;
+  width: 100%;
+  background: -webkit-gradient(
+    radial,
+    50% 100%,
+    10,
+    50% 100%,
+    40,
+    from(#fd9184),
+    color-stop(0.49, #fd9184),
+    color-stop(0.51, #fff),
+    to(white)
+  );
+  background-size: auto;
+  -webkit-background-size: 31px 100%;
+}

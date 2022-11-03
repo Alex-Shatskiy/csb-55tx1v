@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,200&display=swap");
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  background-color: #bceeff;
+  display: flex;
+  height: 7vh;
+  font-weight: bold;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0 9px 31px -16px rgb(0 0 0 / 40%);
+}
+nav h2 {
+  margin-left: 3rem;
+  font-size: 1.5rem;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav ul li a {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  color: black;
+}
+.dropdown-content {
+  display: none;
+  top: 6%;
+  position: absolute;
+  width: 9%;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.backgroud-img {
+  align-self: center;
+  display: flex;
+  margin-top: 2%;
+  height: 85%;
+  background-image: url(https://cdn.pixabay.com/photo/2017/05/09/13/33/laptop-2298286_960_720.png);
+
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 95%;
+  width: 95%;
+  padding-left: 0px;
+  justify-content: flex-start;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+  backdrop-filter: blur(4.7px);
+}
+.background-content h1 {
+  font-size: 98px;
+  margin-left: 4rem;
+  margin-bottom: 5%;
+}
+.slogon {
+  width: 27%;
+  margin-left: 7.5%;
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+.buttons {
+  display: flex;
+  width: 80%;
+  height: 8%;
+  margin-top: 6%;
+  margin-left: 6%;
+  text-align: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.buttons a {
+  background-color: #2dabf9;
+  color: #ffffff;
+  border-radius: 42px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  width: 15%;
+  text-decoration: none;
+  padding-top: 8px;
+}
+
+.buttons button :hover {
+  background-color: #c2c2c2;
+}
+
+ul li:hover {
+  background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color: #bceeff;
+}
